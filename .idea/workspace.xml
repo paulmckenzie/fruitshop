@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac69b034-6bee-4d1e-beb7-4913603d50e3" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala" afterPath="$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricers.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fruitshop/ShoppingCart$.class" afterPath="$PROJECT_DIR$/build/classes/main/fruitshop/ShoppingCart$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fruitshop/ShoppingCart.class" afterPath="$PROJECT_DIR$/build/classes/main/fruitshop/ShoppingCart.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest$$anonfun$1$$anonfun$apply$mcV$sp$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest.class" afterPath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala" afterPath="$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala" afterPath="$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/package.scala" afterPath="$PROJECT_DIR$/src/main/scala/fruitshop/package.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -99,11 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShoppingCartTest.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShoppingCartTest.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.41132638">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="e#19#62#0" expanded="true" />
               </folding>
@@ -131,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FruitPricer.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala">
+      <file leaf-file-name="FruitPricers.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricers.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -145,7 +141,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="e#19#62#0" expanded="true" />
               </folding>
@@ -153,10 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCart.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingCart.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10730253">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
               <folding />
             </state>
@@ -630,7 +626,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FruitPricer.scala" />
+              <option name="myItemId" value="FruitPricers.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1094,7 +1090,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443445254639</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tidier">
+      <created>1443445547666</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1443445547666</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1205,7 +1207,8 @@
     <MESSAGE value="Apples BOGOF, Oranges three for two" />
     <MESSAGE value="Move pricing logic into strategy function" />
     <MESSAGE value="moved stuff around a lot, simplified" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved stuff around a lot, simplified" />
+    <MESSAGE value="tidier" />
+    <option name="LAST_COMMIT_MESSAGE" value="tidier" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1252,7 +1255,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricers.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
@@ -1326,7 +1329,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricers.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
@@ -1493,42 +1496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/Fruit.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#19#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="e#19#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1539,9 +1506,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10730253">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/Fruit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricers.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#19#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41132638">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#19#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
