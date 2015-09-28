@@ -1,7 +1,9 @@
 package fruitshop
 
-sealed trait Fruit
+object Fruit {
+  sealed trait FruitType
 
-case class Apple() extends Fruit
+  case object Apple extends FruitType
 
-case class Orange() extends Fruit
+  case object Orange extends FruitType
+}

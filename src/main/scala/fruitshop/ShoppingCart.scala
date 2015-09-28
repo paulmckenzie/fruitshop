@@ -1,5 +1,9 @@
 package fruitshop
 
-case class ShoppingCart(priceList: PriceList) {
-  def checkout(items: List[Fruit]): Price = items.map(priceList.getPrice(_)).sum
+import fruitshop.Fruit.FruitType
+
+case class ShoppingCart(pricers: Map[FruitType, FruitPricer]) {
+
+  def checkout(items: List[FruitType]): Price = items.groupBy(ft => ft) map { case (ft, itemsOfSameFruit) => pricers(ft)(itemsOfSameFruit.size) } sum
 }
+
