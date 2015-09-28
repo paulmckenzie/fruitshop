@@ -1,17 +1,23 @@
 package fruitshop
 
-import fruitshop.StubPriceList.{ApplePrice, OrangePrice}
-import org.scalatest.{FreeSpec, Matchers}
+import fruitshop.PriceList.{OrangePrice, ApplePrice}
+import org.mockito.Mockito._
+import org.scalatest.mock.MockitoSugar.mock
+import org.scalatest.{BeforeAndAfter, FreeSpec, Matchers}
 
-class ShoppingCartTest extends FreeSpec with Matchers {
+class ShoppingCartTest extends FreeSpec with Matchers with BeforeAndAfter {
+
 
   "A shopping cart" - {
     "is constructed with a price list" in {
-      ShoppingCart(StubPriceList)
+      ShoppingCart(mock[PriceList])
     }
 
     "with inputs" - {
-      val cart = ShoppingCart(StubPriceList)
+      val priceList = mock[PriceList]
+      when(priceList.getPrice(Apple())).thenReturn(ApplePrice)
+      when(priceList.getPrice(Orange())).thenReturn(OrangePrice)
+      val cart = ShoppingCart(priceList)
 
       "Nothing" in {
         cart.checkout(List.empty) shouldBe 0L
@@ -30,12 +36,4 @@ class ShoppingCartTest extends FreeSpec with Matchers {
       }
     }
   }
-}
-
-object StubPriceList extends PriceList {
-  val OrangePrice = 25L
-  val ApplePrice = 60L
-  private val prices: Map[Fruit, Price] = Map(Orange() -> OrangePrice, Apple() -> ApplePrice)
-
-  override def getPrice(fruit: Fruit): Price = prices(fruit)
 }
