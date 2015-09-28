@@ -9,23 +9,23 @@ class SpecialOfferPriceListTest extends FreeSpec with Matchers {
   "Special Offers" - {
     "Apples are BOGOF" - {
       "an apple" in {
-        priceList.getPrice(Apple()) shouldBe ApplePrice
+        ApplePricer.getPrice(1) shouldBe ApplePrice
       }
 
       "one paid-for apple, one free apple" in {
-        priceList.getPrice(Apple(), 2) shouldBe ApplePrice
+        ApplePricer.getPrice(2) shouldBe ApplePrice
       }
 
       "two paid-for apples, one free apple" in {
-        priceList.getPrice(Apple(), 3) shouldBe 2 * ApplePrice
+        ApplePricer.getPrice(3) shouldBe 2 * ApplePrice
       }
 
       "twenty-two paid-for apples, twenty-two free apples" in {
-        priceList.getPrice(Apple(), 44) shouldBe 22 * ApplePrice
+        ApplePricer.getPrice(44) shouldBe 22 * ApplePrice
       }
 
       "twenty-three paid-for apples, twenty-two free apples" in {
-        priceList.getPrice(Apple(), 45) shouldBe 23 * ApplePrice
+        ApplePricer.getPrice(45) shouldBe 23 * ApplePrice
       }
     }
 
@@ -59,4 +59,11 @@ class SpecialOfferPriceListTest extends FreeSpec with Matchers {
       }
     }
   }
+
+  object ApplePricer extends FruitPricer[Apple] {
+    override def getPrice(quantity: Int): Price = ((quantity / 2) + (quantity % 2)) * ApplePrice
+  }
+
 }
+
+
