@@ -1,11 +1,11 @@
 package fruitshop
 
-import fruitshop.PriceList.{OrangePrice, ApplePrice}
+import fruitshop.PriceList.{ApplePrice, OrangePrice}
 import org.mockito.Mockito._
 import org.scalatest.mock.MockitoSugar.mock
-import org.scalatest.{BeforeAndAfter, FreeSpec, Matchers}
+import org.scalatest.{FreeSpec, Matchers}
 
-class ShoppingCartTest extends FreeSpec with Matchers with BeforeAndAfter {
+class ShoppingCartTest extends FreeSpec with Matchers {
 
 
   "A shopping cart" - {
