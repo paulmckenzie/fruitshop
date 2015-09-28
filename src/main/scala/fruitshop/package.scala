@@ -2,5 +2,6 @@
 
 package object fruitshop {
   type Price = Long
-  type FruitPricer = Int => Price
+  type Quantity = Long
+  type FruitPricer = Quantity => Price
 }

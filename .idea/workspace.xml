@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac69b034-6bee-4d1e-beb7-4913603d50e3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/fruitshop/Apple.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/fruitshop/Orange.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/PriceList.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/SpecialOfferPriceList.scala" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/scala/fruitshop/SpecialOfferPriceListTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fruitshop/Fruit.class" afterPath="$PROJECT_DIR$/build/classes/main/fruitshop/Fruit.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fruitshop/ShoppingCart$.class" afterPath="$PROJECT_DIR$/build/classes/main/fruitshop/ShoppingCart$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/fruitshop/ShoppingCart.class" afterPath="$PROJECT_DIR$/build/classes/main/fruitshop/ShoppingCart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest$$anonfun$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest$$anonfun$1$$anonfun$apply$mcV$sp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest.class" afterPath="$PROJECT_DIR$/build/classes/test/fruitshop/ShoppingCartTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/Fruit.scala" afterPath="$PROJECT_DIR$/src/main/scala/fruitshop/Fruit.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala" afterPath="$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala" afterPath="$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/fruitshop/package.scala" afterPath="$PROJECT_DIR$/src/main/scala/fruitshop/package.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -105,11 +99,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShoppingCartTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingCartTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23248883">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="e#19#62#0" expanded="true" />
               </folding>
@@ -121,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/package.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -141,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -151,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="e#19#62#0" expanded="true" />
               </folding>
@@ -159,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingCart.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShoppingCart.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.10730253">
+              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -462,11 +456,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/fruitshop/SpecialOfferPriceList.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fruitshop/Fruit.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fruitshop/PriceList.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fruitshop/package.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala" />
       </list>
     </option>
   </component>
@@ -1094,21 +1088,18 @@
       <option name="project" value="LOCAL" />
       <updated>1443437498344</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="moved stuff around a lot, simplified">
+      <created>1443445254639</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1443445254639</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="FruitPricersTest_Special_Offers_Oranges_are_three_for_two_an_orange - 2015.09.28 at 13h 53m 11s.xml">
       <configuration name="FruitPricersTest.Special Offers Oranges are three for two an orange" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTests_in__fruitshop_ - 2015.09.28 at 11h 59m 11s.xml">
-      <configuration name="ScalaTests in 'fruitshop'" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTests_in__fruitshop_ - 2015.09.28 at 12h 34m 52s.xml">
-      <configuration name="ScalaTests in 'fruitshop'" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ScalaTests_in__fruitshop_ - 2015.09.28 at 13h 30m 23s.xml">
-      <configuration name="ScalaTests in 'fruitshop'" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ScalaTests_in__fruitshop_ - 2015.09.28 at 13h 51m 43s.xml">
       <configuration name="ScalaTests in 'fruitshop'" configurationId="ScalaTestRunConfiguration" />
@@ -1120,6 +1111,15 @@
       <configuration name="ScalaTests in 'fruitshop'" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ScalaTests_in__fruitshop_ - 2015.09.28 at 13h 54m 59s.xml">
+      <configuration name="ScalaTests in 'fruitshop'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ScalaTests_in__fruitshop_ - 2015.09.28 at 14h 02m 14s.xml">
+      <configuration name="ScalaTests in 'fruitshop'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ScalaTests_in__fruitshop_ - 2015.09.28 at 14h 03m 29s.xml">
+      <configuration name="ScalaTests in 'fruitshop'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ScalaTests_in__fruitshop_ - 2015.09.28 at 14h 04m 12s.xml">
       <configuration name="ScalaTests in 'fruitshop'" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="ShoppingCartTest_A_shopping_cart_with_inputs_An_orange - 2015.09.28 at 13h 53m 28s.xml">
@@ -1139,12 +1139,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51459855" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16441621" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297456" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919708" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21785714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1155,7 +1156,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
@@ -1204,7 +1204,8 @@
     <MESSAGE value="refactor in preparation for special offers" />
     <MESSAGE value="Apples BOGOF, Oranges three for two" />
     <MESSAGE value="Move pricing logic into strategy function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move pricing logic into strategy function" />
+    <MESSAGE value="moved stuff around a lot, simplified" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved stuff around a lot, simplified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1492,14 +1493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/Fruit.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1508,39 +1501,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="e#19#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/FruitPricersTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="e#19#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/fruitshop/ShoppingCartTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/FruitPricer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23248883">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-          <folding>
-            <element signature="e#19#62#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fruitshop/ShoppingCart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10730253">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

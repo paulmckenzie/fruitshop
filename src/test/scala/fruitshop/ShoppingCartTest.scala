@@ -3,7 +3,7 @@ package fruitshop
 import fruitshop.ApplePricer.AppleUnitPrice
 import fruitshop.Fruit.{Apple, FruitType, Orange}
 import fruitshop.OrangePricer.OrangeUnitPrice
-import org.mockito.Matchers.anyInt
+import org.mockito.Matchers.anyLong
 import org.mockito.Mockito._
 import org.scalatest.mock.MockitoSugar.mock
 import org.scalatest.{BeforeAndAfter, FreeSpec, Matchers}
@@ -16,8 +16,8 @@ class ShoppingCartTest extends FreeSpec with Matchers with BeforeAndAfter {
 
   before {
     reset(orangePricer, applePricer)
-    when(orangePricer.apply(anyInt())).thenReturn(OrangeUnitPrice)
-    when(applePricer.apply(anyInt())).thenReturn(AppleUnitPrice)
+    when(orangePricer.apply(anyLong())).thenReturn(OrangeUnitPrice)
+    when(applePricer.apply(anyLong())).thenReturn(AppleUnitPrice)
   }
 
   "A shopping cart" - {
@@ -34,20 +34,20 @@ class ShoppingCartTest extends FreeSpec with Matchers with BeforeAndAfter {
 
       "An orange" in {
         cart.checkout(List(Orange)) shouldBe OrangeUnitPrice
-        verify(orangePricer).apply(1)
+        verify(orangePricer).apply(1L)
         verifyNoMoreInteractions(applePricer)
       }
 
       "An apple" in {
         cart.checkout(List(Apple)) shouldBe AppleUnitPrice
-        verify(applePricer).apply(1)
+        verify(applePricer).apply(1L)
         verifyNoMoreInteractions(orangePricer)
       }
 
       "A mix of fruit" in {
         cart.checkout(List(Apple, Apple, Orange, Apple, Orange)) shouldBe AppleUnitPrice + OrangeUnitPrice
-        verify(applePricer).apply(3)
-        verify(orangePricer).apply(2)
+        verify(applePricer).apply(3L)
+        verify(orangePricer).apply(2L)
       }
     }
   }
