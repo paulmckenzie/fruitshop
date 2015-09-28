@@ -35,7 +35,7 @@ class ShoppingCartTest extends FreeSpec with Matchers {
 object StubPriceList extends PriceList {
   val OrangePrice = 25L
   val ApplePrice = 60L
-  private val prices: Map[Fruit, Long] = Map(Orange() -> OrangePrice, Apple() -> ApplePrice)
+  private val prices: Map[Fruit, Price] = Map(Orange() -> OrangePrice, Apple() -> ApplePrice)
 
-  override def getPrice(fruit: Fruit): Long = prices(fruit)
+  override def getPrice(fruit: Fruit): Price = prices(fruit)
 }
