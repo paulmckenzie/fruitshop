@@ -2,6 +2,6 @@ package fruitshop
 
 sealed trait Fruit
 
-class Apple extends Fruit
+case class Apple() extends Fruit
 
-class Orange extends Fruit
+case class Orange() extends Fruit

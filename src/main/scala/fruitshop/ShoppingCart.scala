@@ -1,6 +1,7 @@
 package fruitshop
 
-object ShoppingCart {
-  def checkout(items:List[Fruit]): Long = 0L
+case class ShoppingCart(priceList: PriceList) {
+
+  def checkout(items: List[Fruit]): Long = items.map(priceList.getPrice).sum
 
 }
