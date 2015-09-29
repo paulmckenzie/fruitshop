@@ -3,7 +3,7 @@ package fruitshop
 import fruitshop.ApplePricer.AppleUnitPrice
 import fruitshop.Fruit.{Apple, FruitType, Orange}
 import fruitshop.OrangePricer.OrangeUnitPrice
-import org.mockito.Matchers.anyLong
+import org.mockito.Matchers.{anyLong => anyQuantity}
 import org.mockito.Mockito._
 import org.scalatest.mock.MockitoSugar.mock
 import org.scalatest.{BeforeAndAfter, FreeSpec, Matchers}
@@ -16,8 +16,8 @@ class ShoppingCartTest extends FreeSpec with Matchers with BeforeAndAfter {
 
   before {
     reset(orangePricer, applePricer)
-    when(orangePricer.apply(anyLong())).thenReturn(OrangeUnitPrice)
-    when(applePricer.apply(anyLong())).thenReturn(AppleUnitPrice)
+    when(orangePricer.apply(anyQuantity())).thenReturn(OrangeUnitPrice)
+    when(applePricer.apply(anyQuantity())).thenReturn(AppleUnitPrice)
   }
 
   "A shopping cart" - {
@@ -28,7 +28,7 @@ class ShoppingCartTest extends FreeSpec with Matchers with BeforeAndAfter {
     "with inputs" - {
       val cart = ShoppingCart(pricers)
       "Nothing" in {
-        cart.checkout(List.empty)
+        cart.checkout(List.empty) shouldBe 0L
         verifyNoMoreInteractions(applePricer, orangePricer)
       }
 
